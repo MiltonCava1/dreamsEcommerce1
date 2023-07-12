@@ -1,8 +1,9 @@
-import 'package:app/presentacion/admin/gestionar_categoria.dart';
+import 'package:app/presentacion/admin/Rol/gestion_roles.dart';
+import 'package:app/presentacion/admin/gestion_pages/categoria/gestionar_categoria.dart';
 import 'package:flutter/material.dart';
 import '../widgets_utils/icon_text.dart';
 import 'admin_navbar.dart';
-import 'agregar_productos.dart';
+import 'gestion_pages/producto/gestionar_productos.dart';
 
 class AdminPage extends StatefulWidget {
   const AdminPage({Key? key});
@@ -18,14 +19,12 @@ class _AdminPageState extends State<AdminPage> {
     if (selectedOption == 'a') {
       return const AddProductos();
     } else if (selectedOption == 'b') {
-      return const Align(
-        alignment: Alignment.center,
-        child: GestionarCategoria(),
-      );
+      return const GestionarCategoria();
+      
     } else if (selectedOption == 'c') {
       return Text("Hola");
     } else if (selectedOption == "d") {
-      return Text("A");
+      return const GestionRoles();
     } else if (selectedOption == "e") {
       return Text("MImir");
     } else if (selectedOption == "f") {
@@ -79,7 +78,7 @@ class _AdminPageState extends State<AdminPage> {
                           ),
                           IconText(
                             icon: Icons.add_business,
-                            descripcion: 'Agregar Productos',
+                            descripcion: 'Gestionar Productos',
                             onPressed: () {
                               setState(() {
                                 selectedOption = 'a';
@@ -88,7 +87,7 @@ class _AdminPageState extends State<AdminPage> {
                           ),
                           IconText(
                             icon: Icons.add,
-                            descripcion: 'Agregar categorias',
+                            descripcion: 'Gestionar categorias',
                             onPressed: () {
                               setState(() {
                                 selectedOption = 'b';
@@ -106,7 +105,7 @@ class _AdminPageState extends State<AdminPage> {
                           ),
                           IconText(
                             icon: Icons.person,
-                            descripcion: 'Agregar Usuarios',
+                            descripcion: 'Gestionar Usuarios',
                             onPressed: () {
                               setState(() {
                                 selectedOption = 'd';

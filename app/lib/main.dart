@@ -1,4 +1,3 @@
-import 'package:app/presentacion/about_us/about_us_page.dart';
 import 'package:app/presentacion/admin/admin_page.dart';
 import 'package:app/presentacion/login/login_page.dart';
 import 'package:app/presentacion/olvidar_pass/olvidar_pass_page.dart';
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false, //Quita el banner de debug
       initialRoute: '/',
       routes: {
-        '/': (context) => const AboutUsPage(),
+        '/': (context) => const AdminPage(),
         '/Registrarse': (context) => const RegistrarsePage(),
         '/IniciarSesion': (context) => const LoginPage(),
         '/IniciarSesion/RecuperarPass': (context) => const OlvidarPassPage(),

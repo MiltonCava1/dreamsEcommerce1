@@ -1,12 +1,12 @@
 import 'package:app/presentacion/admin/titulos_gestion.dart';
 import 'package:app/presentacion/widgets_utils/boton.dart';
 import 'package:flutter/material.dart';
-import '../../logica_negocio/tabla_categoria.dart';
-import '../../logica_negocio/validar_categoria.dart';
-import '../widgets_utils/input_text.dart';
+import 'tabla_categoria.dart';
+import '../../../../logica_negocio/validar_categoria.dart';
+import '../../../widgets_utils/input_text.dart';
 
 class GestionarCategoria extends StatefulWidget {
-  const GestionarCategoria({Key? key});
+  const GestionarCategoria({super.key});
 
   @override
   State<GestionarCategoria> createState() => _GestionarCategoriaState();
@@ -61,11 +61,13 @@ class _GestionarCategoriaState extends State<GestionarCategoria> {
               const SizedBox(
                 height: 30,
               ),
-              Expanded(
+
+              //Llamamos a la tabla 
+              const Expanded(
                 child: SingleChildScrollView(
                   child: SizedBox(
                     width: 800,
-                    height: 400,
+                    height: 450,
                     child: TablaCategorias(),
                   ),
                 ),

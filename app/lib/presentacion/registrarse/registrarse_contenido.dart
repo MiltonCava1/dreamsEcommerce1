@@ -147,6 +147,7 @@ class _RegistrarseContenigoState extends State<RegistrarseContenigo> {
                                     );
                                   }
                                 } else {
+                                
                                   CustomDialog.show(
                                     context,
                                     "Este correo electrónico ya está registrado",

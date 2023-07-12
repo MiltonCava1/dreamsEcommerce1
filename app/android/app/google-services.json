@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "773530338893",
-    "project_id": "edreamsdb",
-    "storage_bucket": "edreamsdb.appspot.com"
+    "project_number": "789878987138",
+    "project_id": "dreams-ecommerce",
+    "storage_bucket": "dreams-ecommerce.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:773530338893:android:6debdcc42bb07bae32fe04",
+        "mobilesdk_app_id": "1:789878987138:android:407a0e8c70229e2892179b",
         "android_client_info": {
           "package_name": "com.example.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "773530338893-v4mdpichiagoub7kmn2nsn2vsgvn0qpj.apps.googleusercontent.com",
+          "client_id": "789878987138-p06m8v839vf68rqdf574hkjkqpnk6b51.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBdpPARnAvu6HAPV7-VUtFNUXryPOuSaGg"
+          "current_key": "AIzaSyAMnGeHkXsUjIFvQpXhLjWp-sl_cYlczs8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "773530338893-v4mdpichiagoub7kmn2nsn2vsgvn0qpj.apps.googleusercontent.com",
+              "client_id": "789878987138-p06m8v839vf68rqdf574hkjkqpnk6b51.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "789878987138-2j824g37ct8g208095aeutgem8e453jh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.app.RunnerTests"
+              }
             }
           ]
         }

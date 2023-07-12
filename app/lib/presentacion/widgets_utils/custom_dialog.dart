@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CustomDialog extends StatelessWidget {
 
-  const CustomDialog({
+  const CustomDialog(BuildContext context, {
     Key? key,
   }) : super(key: key);
 

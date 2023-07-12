@@ -1,6 +1,5 @@
 import 'package:app/presentacion/navegacion/navbar_logo.dart';
 import 'package:flutter/material.dart';
-
 import '../../logica_negocio/validaciones.dart';
 import '../widgets_utils/icon_button_custom.dart';
 import '../widgets_utils/text_button_custom.dart';
